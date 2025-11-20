@@ -493,13 +493,13 @@ img {
     justify-content:space-between;
     align-items: stretch;
     margin: 0 0 1vw 0;
-    height: 30vh
+    height: 15vw;
 }
 
 
 .page7_table_item_plus_foto{
     display: flex;
-    justify-content:right;
+    justify-content:space-between;
     border: 1px solid;
     width: 100%;
     overflow: hidden;
@@ -521,16 +521,6 @@ img {
     transition: filter 0.5s ease;
     filter: grayscale(0);
 }
-
-.page7_table23 {
-    flex-grow: 1;
-}
-
-.page7_table_item {
-    flex-grow: 5;
-}
-
-
 
 .tel a{
     color: black;
