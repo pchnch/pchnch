@@ -297,22 +297,22 @@ img {
 
 #test1{
     transform: translateX(-5000px);
-    transition: transform .5s;
+    transition: transform .5s ease-in .25s;
 }
 
 #test1.active{
     transform: translate(0px);
-    transition: transform .5s;
+    transition: transform .5s ease-out;
 }
 
 #test2{
     transform: translateX(5000px);
-    transition: transform .5s;
+    transition: transform .5s ease-in .25s;
 }
 
 #test2.active{
     transform: translate(0px);
-    transition: transform .5s;
+    transition: transform .5s ease-out;
 }
 
 
@@ -367,10 +367,10 @@ img {
 
 .page4grid{
     display: grid;
-    grid-template-columns: 598px 598px 598px;
-    grid-template-rows: 598px 0px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50vh;
     grid-gap: 30px;
-    width: 1824px;
+    width: 80%;
     margin: auto;
     transition: all 0.5s ease 0.5s;
 }
@@ -391,8 +391,8 @@ img {
 }
 
 .page4_grid_item{
-    width: 598px;
-    height: 598px;
+    width: 100%;
+    height: 100%;
     color: white;
     font-size: 64px;
     font-family: BrandinkSans, sans-serif;
@@ -400,6 +400,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+        background-size: cover;
 }
 
 .line{
@@ -414,62 +415,14 @@ img {
     font-size: 48px;
 }
 
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_title{
-    font-size: 40px;
-    margin-bottom: 111px;
-    margin-top: 32px;
-    text-transform: capitalize;
-}
-
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_title1{
-    font-size: 40px;
-    margin-bottom: 29px;
-    margin-top: 32px;
-}
-
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_title2{
-    font-size: 40px;
-    margin-bottom: 100px;
-    margin-top: 32px;
-}
-
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_title3{
-    font-size: 40px;
-    margin-bottom: 43px;
-    margin-top: 32px;
-}
-
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_title4   {
-    font-size: 40px;
-    margin-bottom: 65px;
-    margin-top: 32px;
-}
-
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_title5   {
-    font-size: 40px;
-    margin-bottom: 110px;
-    margin-top: 32px;
-}
-
-.page4_grid_item:hover .page4_grid_item_hidden .page4_grid_item_hidden_text{
-    font-size: 32px;
-}
-
-.page4_grid_item_hidden{
-    display: none;
-}
-
 .page4_grid_item1 {
     background-image: url(./../images/catalog1.png);
-    background-size: cover;
 }
 .page4_grid_item2 {
     background-image: url(./../images/catalog2.png);
-    background-size: cover;
 }
 .page4_grid_item3 {
     background-image: url(./../images/catalog3.png);
-    background-size: cover;
 }
 
 .page4grid_container{

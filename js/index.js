@@ -112,11 +112,17 @@ for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
     e.preventDefault()
     document.getElementById("menu1").classList.remove('active')
+
     const blockID = anchor.getAttribute('href').substr(1)
-    
-    document.getElementById(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+    const element = document.getElementById(blockID)
+
+    const headerOffset = 100; // <-- твоя высота хедера
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
     })
   })
 }
