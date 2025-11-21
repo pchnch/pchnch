@@ -35,8 +35,16 @@ dd {
     display: none;
 }
 
+.desktop{
+    display: none;
+}
+
 .hide_in_tablet{
     display: none;
+}
+
+.tablet{
+    display: block;
 }
 
 html{

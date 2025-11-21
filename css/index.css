@@ -293,26 +293,29 @@ img {
 #test1,#test2{
     position: absolute;
     height: 60vh;
+    opacity: 0;
 }
 
 #test1{
     transform: translateX(-5000px);
-    transition: transform .5s ease-in .25s;
+    transition: all .5s ease-in .25s;
 }
 
 #test1.active{
     transform: translate(0px);
-    transition: transform .5s ease-out;
+    opacity: 1;
+    transition: all .5s ease-out;
 }
 
 #test2{
     transform: translateX(5000px);
-    transition: transform .5s ease-in .25s;
+    transition: all .5s ease-in .25s;
 }
 
 #test2.active{
     transform: translate(0px);
-    transition: transform .5s ease-out;
+    opacity: 1;
+    transition: all .5s ease-out;
 }
 
 
@@ -412,7 +415,8 @@ img {
 
 .page4_grid_item_textvisible{
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    padding: 10px;
 }
 
 .page4_grid_item1 {
@@ -508,7 +512,7 @@ img {
 }
 
 .page7_table_item_foto{
-    width: 12.5vw;
+    width: 35.5vw;
     filter: grayscale(1);
     border-left: 1px solid;
     transition: filter 0.5s ease;
@@ -523,7 +527,7 @@ img {
 .tel a{
     color: black;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 0.8vw;
 }
 
 .page7_table_info{
@@ -534,7 +538,7 @@ img {
 
 .page7_table_item {
     padding: 2vw 0 2vw 2vw  ;
-    width: 12.5vw;
+    width: 20.5vw;
     display: flex;
     flex-direction:column;
 }
