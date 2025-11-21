@@ -232,7 +232,7 @@ img {
     justify-content:flex-start;
     align-items: stretch;
     flex-direction: column;
-    margin-bottom: 12px;
+    margin-bottom: 35px;
 }
 
 .headerpagetext
@@ -492,7 +492,7 @@ img {
 
 .page7_table1{
     display: flex;
-    justify-content:space-between;
+    justify-content:right;
     align-items: stretch;
     margin: 0 0 1vw 0;
     height: 15vw;
