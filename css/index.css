@@ -144,13 +144,12 @@ img {
 }
 
 .page{
-    min-height: 100vh;
     margin-left: 70px;
     margin-right: 70px;
 }
 
 .page2{
-    height: 100vh;
+    height: 95vh;
 }
 
 .inter{
@@ -342,7 +341,7 @@ img {
 .page3grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 0px;
+    grid-template-rows: 200px;
     align-items: center;
     transition: all 0.5s ease 0.5s;
 }
@@ -487,7 +486,7 @@ img {
 }
 
 .page7{
-    height: 40vh;
+    
 }
 
 .page7_table1{
@@ -592,7 +591,7 @@ img {
 .page6{
     margin-left: 70px;
     margin-right: 70px;
-    margin-bottom: 150px; 
+    margin-bottom: 80px; 
 }
 
 .footer_logo{
