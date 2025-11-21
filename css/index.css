@@ -605,24 +605,29 @@ img {
 
 .point {
     background-image: url(./../images/Ellipse\ 4.png);
-    width: 16px;
-    height: 16px;
+    background-size: 0.7vw;
+    background-repeat: no-repeat;
+    width: 0.7vw;
+    height: 0.7vw;
     position:absolute;
     z-index: 0;
     transition: 
         width 0.2s,
         height 0.2s,
         transform 0.2s,
+        background-size 0.2s,
         background-image 0.2s; /* необязательно, но можно */
 }
 
 .point:hover {
     background-image: url(./../images/Ellipse\ 4\ \(1\).png);
-    width: 20px;
-    height: 20px;
+    background-size: 0.9vw;
+    background-repeat: no-repeat;
+    width: 0.9vw;
+    height: 0.9vw;
     font-family: BrandinkSans, sans-serif;
     z-index: 1;
-    transform: translate(-2px, -2px);
+    transform: translate(-0.1vw, -0.1vw);
 }
 
 .point1 {
