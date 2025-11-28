@@ -243,6 +243,7 @@ img {
 .page2grid{
     display: flex;
     height: 80vh;
+    width: 93vw;
     justify-content: space-between;
     align-items: stretch;
     grid-gap: 21px;
@@ -274,6 +275,7 @@ img {
     border: 1px solid;
     padding: 50px;
     background-color: white;
+    width: 53.5vw;
 
 }
 
@@ -368,12 +370,8 @@ img {
 }
 
 .page4grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50vh;
-    grid-gap: 30px;
-    width: 80%;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
     transition: all 0.5s ease 0.5s;
 }
 
@@ -393,10 +391,9 @@ img {
 }
 
 .page4_grid_item{
-    width: 100%;
-    height: 100%;
+    width: 27vw;
+    height: 27vw;
     color: white;
-    font-size: 64px;
     font-family: BrandinkSans, sans-serif;
     display: flex;
     justify-content: center;
@@ -414,7 +411,7 @@ img {
 
 .page4_grid_item_textvisible{
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 10px;
 }
 
@@ -563,7 +560,7 @@ img {
 
 .footer{
     background-color: black;
-    height: 25vh;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -597,8 +594,7 @@ img {
 .footer_logo{
     padding-right: 50px;
     padding-top: 20px;
-    height: 20vh;
-
+    padding-bottom: 20px;
 }
 
 
@@ -655,8 +651,8 @@ img {
 }
 
 .point6 {
-    top:31.5%;
-    left:21.1%;
+    top:29.5%;
+    left:28.5%;
 }
 
 .point7 {
@@ -679,6 +675,16 @@ img {
     left:60.1%;
 }
 
+.point11 {
+    top:38.5%;
+    left:26.5%;
+}
+
+.point12 {
+    top:14.7%;
+    left:22.1%;
+}
+
 .map{
     position: relative;
     display: flex;
@@ -689,7 +695,7 @@ img {
 
 .map2{
     position:absolute;
-    top:3820px;
+    top:3790px;
     left: 68px;
     display: flex;
     justify-content: center;
@@ -788,6 +794,27 @@ img {
 
 .point10 .boxcity{
     display: block;
+    width: 290px;
+    border: 1px solid;
+    position: absolute;
+    top:-10px;
+    left: 30px;
+    
+}
+
+.point11 .boxcity{
+    display: block;
+    width: 290px;
+    border: 1px solid;
+    position: absolute;
+    top:-10px;
+    left: 30px;
+    
+}
+
+.point12 .boxcity{
+    display: block;
+    width: 290px;
     border: 1px solid;
     position: absolute;
     top:-10px;
@@ -955,6 +982,7 @@ img {
 .footer_info{
     margin-left: 70px;
     margin-top: 53px;
+    margin-bottom: 53px;
     font-size: 0.7vw;
 }
 
