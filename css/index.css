@@ -440,12 +440,13 @@ img {
     align-items: stretch;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .page6_scroll_item{
     border: 1px solid;
     margin-top: 5px;
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -464,7 +465,7 @@ img {
     text-align: center;
 
     font-family: BrandinkSans, sans-serif;
-    font-size: 16px;
+    font-size: 0.85vw;
     line-height: 24.2px;
     display: flex;
     justify-content: center;
